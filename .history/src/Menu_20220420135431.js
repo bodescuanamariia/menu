@@ -3,7 +3,7 @@ import React from "react";
 const Menu = ({ items }) => {
   return (
     <div className="section-center">
-      {items.map((menuItem) => {
+      {DataTransferItemList.map((menuItem) => {
         const { id, title, image, description } = menuItem;
         return (
           <article key={id} className="menu-item">

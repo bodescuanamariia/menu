@@ -171,15 +171,4 @@ Menu
 
 .menu-item {
   display: grid;
-  gap: 1rem 2rem;
-  max-width: 25rem;
-}
-
-.photo {
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-  border: 0.25rem solid var(--clr-gold);
-  border-radius: var(--radius);
-  display: block;
 }

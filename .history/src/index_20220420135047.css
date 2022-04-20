@@ -151,35 +151,3 @@ Menu
   text-align: center;
   margin-bottom: 2rem;
 }
-
-.underline {
-  width: 5rem;
-  height: 0.25rem;
-  background: var(--clr-gold);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-  display: grid;
-  gap: 3rem 2rem;
-  justify-items: center;
-}
-
-.menu-item {
-  display: grid;
-  gap: 1rem 2rem;
-  max-width: 25rem;
-}
-
-.photo {
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-  border: 0.25rem solid var(--clr-gold);
-  border-radius: var(--radius);
-  display: block;
-}

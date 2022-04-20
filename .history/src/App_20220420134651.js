@@ -15,7 +15,7 @@ function App() {
             <div className="underline"></div>
           </div>
           <Categories />
-          <Menu items={menuItems} />
+          <Menu />
         </section>
       </main>
     </>
